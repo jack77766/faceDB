@@ -1,0 +1,21 @@
+{
+  "name": "facedb",
+  "version": "1.0.0",
+  "description": "download images and store into db for face recognition",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Jacky Dabah",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/storage-blob": "^10.0.0-preview",
+    "@types/dotenv": "^4.0.3",
+    "crawler": "^1.2.0",
+    "dotenv": "^6.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "https": "^1.0.0",
+    "mysql": "^2.16.0"
+  }
+}
